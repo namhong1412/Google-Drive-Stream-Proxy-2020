@@ -3,7 +3,8 @@
 This is a perfect way to replace hiring video hosting services (`in a certain perspective`)
 
 Can say it is `Alternative Google Drive Streaming - Kaido Drive Script`
-Author : [@truongsofm](https://github.com/truongsofm) & [@namhong1412](https://github.com/namhong1412)
+
+- Author : [@truongsofm](https://github.com/truongsofm) & [@namhong1412](https://github.com/namhong1412)
 
 ## Highlights 🔥
 
