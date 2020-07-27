@@ -142,10 +142,22 @@ function write_data(string $id) {
 			'id' => $id,
 		)));
 		fclose($fhandle);
-		return array(
-			'hash' => hash('sha256', $id, false),
-			'sources' => $ar_list
-		); // Serve as JSON
+
+		if (in_array('1080p', $ar_list)) {
+			$stream = '1080p';
+		} else if (in_array('720p', $ar_list)) {
+			$stream = '720p';
+		} else if (in_array('480p', $ar_list)) {
+			$stream = '480p';
+		} else {
+			$stream = '360p';
+		}
+		
+		header('location: ?id='.hash('sha256', $id, false).'&stream='.$stream);
+		// return array(
+		// 	'hash' => hash('sha256', $id, false),
+		// 	'sources' => $ar_list
+		// ); // Serve as JSON
 		
 	} else {
 		
