@@ -1,5 +1,9 @@
 <?php
-
+/* Google Drive Stream Proxy
+ Code được share free tại các group : J2Team , Yam - ShareNgay , T1Team
+ Đồng tác giả : https://github.com/truongsofm & https://github.com/namhong1412
+ Thấy hay thì nhớ cho chúng mình 1 Star và 1 Follow github nhé 
+ */
 declare(strict_types=1);
 error_reporting(0);
 
